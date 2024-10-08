@@ -3,7 +3,7 @@
 ### Event Rule
 
 - A snapshot will be taken at the end of the event.
-- User with borrow > $50 and hold it until event ended.
+- User with borrow >= $50 and hold it until event ended.
 
 ### Randomization Logic
 
