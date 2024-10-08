@@ -1,4 +1,4 @@
-## Sui Wallet Campaign Airdrop Randomization Process
+## Sui Wallet Campaign Randomization Process
 
 ### Event Rule
 
@@ -7,7 +7,7 @@
 
 ### Randomization Logic
 
-After taking a snapshot at a random time and compiling a list of eligible users, we will select 1000 random users to receive the Sui Wallet Campaign. Here is the process for selecting random users:
+After taking a snapshot at a random time and compiling a list of eligible users, we will select 100 random users to receive the Sui Wallet Campaign. Here is the process for selecting random users:
 
 1. Retrieve the complete list of eligible users.
 2. Select a future drand round to use as the seed for hashing the list.
