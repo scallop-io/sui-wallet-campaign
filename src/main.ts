@@ -64,10 +64,4 @@ function sortHashResult() {
   fs.writeFileSync(`${folderName}/sortedResults.json`, JSON.stringify(sortedResults, null, 2));
 }
 
-
-const test = async () => {
-  const drand = await getDrandRound(PICKED_ROUND);
-  console.log(drand);
-}
-
-test();
+main();
